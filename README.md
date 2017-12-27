@@ -1,2 +1,3 @@
 # codingame
-Snippets for www.codingame.com
+Solutions for www.codingame.com
+(mostly in C)
