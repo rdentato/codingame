@@ -13,13 +13,15 @@
 *
 */
 
-#define _dbg(...)
+#define _dbg_msg(...)
 #define _dbg_do(x)
 
 #ifndef NDEBUG
-#define dbg(...) fprintf(stderr,__VA_ARGS__)
+#define dbg_msg(...) fprintf(stderr,__VA_ARGS__)
 #define dbg_do(x) x  
 #else
-#define dbg(...)  
+#define dbg_msg(...)  
 #define dbg_do(x)
 #endif
+
+
